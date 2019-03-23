@@ -1421,7 +1421,7 @@ Camera:
   m_Enabled: 1
   serializedVersion: 2
   m_ClearFlags: 2
-  m_BackGroundColor: {r: 0.495283, g: 1, b: 0.9575269, a: 0}
+  m_BackGroundColor: {r: 0, g: 0.10534355, b: 0.4056604, a: 0}
   m_projectionMatrixMode: 1
   m_SensorSize: {x: 36, y: 24}
   m_LensShift: {x: 0, y: 0}
@@ -1437,7 +1437,7 @@ Camera:
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 2
+  orthographic size: 2.64
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -1548,8 +1548,8 @@ MonoBehaviour:
   tankControl: 0
   dont_show_touch_Buttons: 0
   max_power: 55
-  min_power: -10
-  maxsteer: 15
+  min_power: -25
+  maxsteer: 1.5
   speedometer: 0
 --- !u!212 &1706851781
 SpriteRenderer:
@@ -1608,7 +1608,7 @@ Transform:
   m_GameObject: {fileID: 1706851779}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 1.8, y: 1.8, z: 2}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 1
@@ -1625,8 +1625,8 @@ Rigidbody2D:
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
-  m_Mass: 3
-  m_LinearDrag: 10
+  m_Mass: 1.8
+  m_LinearDrag: 5
   m_AngularDrag: 15
   m_GravityScale: 0
   m_Material: {fileID: 6200000, guid: fb7061ce9b98ba8448e35b7d8c150cde, type: 2}
